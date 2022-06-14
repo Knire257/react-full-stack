@@ -33,3 +33,16 @@
     margin: 0px;
     min-height: min-content;
 }
+
+body {
+    padding: 50px 0px 50px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512da8;
+}
+
+.breadcrumb {
+    margin: 10px;
+}
