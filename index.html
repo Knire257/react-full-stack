@@ -41,8 +41,13 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
+                <div class="col-12 col-sm align-self-center" style="margin:10px">
                     <img src="img/logo.png" class="img-fluid" alt="logo">
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                    <button type="submit" class="btn btn-warning align-items-center">
+                        <h5>Reserve Table</h5>
+                    </button>
                 </div>
             </div>
         </div>
@@ -70,8 +75,13 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div style="margin-right: 15px;">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
 
@@ -86,6 +96,48 @@
                         <h2>Alberto Somayya</h2>
                         <h4>Executive Chef</h4>
                         <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="card" id="card-reservations">
+                <h3 class="card-header text-white" style="background-color: rgb(240, 195, 48);">Reserve a Table</h3>
+                <div class="card-body">
+                    <div class="align-items-center">
+                        <form action="">
+                            <div class="form-group row align-items-center align-self-center">
+                                <label class="font-weight-bold col-12" for="guests_number">Number of Guests</label>
+                                <div class="offset-2">
+                                    <input type="radio" name="number_of_guests" value="1">
+                                    <label class="form-check-label" for="guests_number">1</label>
+                                    <input type="radio" name="number_of_guests" value="2">
+                                    <label class="form-check-label" for="guests_number">2</label>
+                                    <input type="radio" name="number_of_guests" value="3">
+                                    <label class="form-check-label" for="guests_number">3</label>
+                                    <input type="radio" name="number_of_guests" value="4">
+                                    <label class="form-check-label" for="guests_number">4</label>
+                                    <input type="radio" name="number_of_guests" value="5">
+                                    <label class="form-check-label" for="guests_number">5</label>
+                                    <input type="radio" name="number_of_guests" value="6">
+                                    <label class="form-check-label" for="guests_number">6</label>
+                                </div>
+                            </div>
+                            <div class="form-group row align-items-center align-self-center">
+                            <label for="date-time" class="font-weight-bold col-12">Date and Time</label>
+                            <div class="col-4 offset-md-1 "><input type="text" class="form-control" id="date" name="date" placeholder="Date"></div>
+                            <div class="col-4"><input type="text" class="form-control" id="time" name="time" placeholder="Time"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-md-1 col-md-10">
+                                    <button type="submit" class="btn btn-primary">
+                                    Reserve
+                                    </button>
+                                </div>
+        
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
